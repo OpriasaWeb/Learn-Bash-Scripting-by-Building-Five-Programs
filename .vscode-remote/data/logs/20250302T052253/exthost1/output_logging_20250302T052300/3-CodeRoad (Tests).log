@@ -1,0 +1,16 @@
+FAILED TEST LOG
+  ✘ You should enter the suggested command
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'help' && (lastCommand[1] === undefined || lastCommand[1].op === ';'))
+
+at Context.<anonymous> (test/544.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should run your script with the correct arguments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === './countdown.sh' && lastCommand[1] === '5' && /\/project$/.test(cwd))
+
+at Context.<anonymous> (test/552.test.js:9:5)

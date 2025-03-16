@@ -1,0 +1,361 @@
+FAILED TEST LOG
+  ✘ You should enter the suggested command
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === '[[' && lastCommand[1] === '4' && lastCommand[2] === '-le' && lastCommand[3] === '5' && lastCommand[4] === ']]' && (lastCommand[5] === undefined || lastCommand[5].op === ';'))
+
+at Context.<anonymous> (test/554.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^[ \t]*echo[ \t]+\$\?[ \t]*;?[ \t]*$/.test(lastCommand) && slcTest)
+
+at Context.<anonymous> (test/556.test.js:11:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^[ \t]*echo[ \t]+\$\?[ \t]*;?[ \t]*$/.test(lastCommand) && slcTest)
+
+at Context.<anonymous> (test/556.test.js:11:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^[ \t]*echo[ \t]+\$\?[ \t]*;?[ \t]*$/.test(lastCommand) && slcTest)
+
+at Context.<anonymous> (test/556.test.js:11:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^[ \t]*echo[ \t]+\$\?[ \t]*;?[ \t]*$/.test(lastCommand) && slcTest)
+
+at Context.<anonymous> (test/556.test.js:11:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^[ \t]*echo[ \t]+\$\?[ \t]*;?[ \t]*$/.test(lastCommand) && slcTest)
+
+at Context.<anonymous> (test/556.test.js:11:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^[ \t]*echo[ \t]+\$\?[ \t]*;?[ \t]*$/.test(lastCommand) && slcTest)
+
+at Context.<anonymous> (test/556.test.js:11:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*\[\[\s+10\s+-ne\s+5\s+\]\]\s*;\s*echo\s+\$\?\s*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/564.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*\[\[\s+10\s+-ne\s+5\s+\]\]\s*;\s*echo\s+\$\?\s*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/564.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*\[\[\s+10\s+-ne\s+5\s+\]\]\s*;\s*echo\s+\$\?\s*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/564.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*\[\[\s+10\s+-ne\s+5\s+\]\]\s*;\s*echo\s+\$\?\s*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/564.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*\[\[\s+10\s+-ne\s+5\s+\]\]\s*;\s*echo\s+\$\?\s*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/564.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*\[\[\s+10\s+-ne\s+5\s+\]\]\s*;\s*echo\s+\$\?\s*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/564.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*\[\[\s+10\s+-ne\s+5\s+\]\]\s*;\s*echo\s+\$\?\s*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/564.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*\[\[\s+10\s+-ne\s+5\s+\]\]\s*;\s*echo\s+\$\?\s*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/564.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*\[\[\s+10\s+-ne\s+5\s+\]\]\s*;\s*echo\s+\$\?\s*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/564.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*\[\[\s+-a\s+(\.\/)?bad_file\.txt\s+\]\]\s*;\s*echo\s+\$\?\s*;?\s*$/g.test(lastCommand))
+
+at Context.<anonymous> (test/575.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested commands in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*\[\[\s+-x\s+(\.\/)?countdown\.sh\s+\]\]\s*;\s*echo\s+\$\?\s*;?\s*$/g.test(lastCommand))
+
+at Context.<anonymous> (test/576.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested commands in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*\[\[\s+-x\s+(\.\/)?countdown\.sh\s+\]\]\s*;\s*echo\s+\$\?\s*;?\s*$/g.test(lastCommand))
+
+at Context.<anonymous> (test/576.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if/else" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^true$/gm.test(output1) && !/^false$/.test(output1) && !/^true$/gm.test(output2) && /^false$/gm.test(output2))
+
+at Context.<anonymous> (test/588.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if/else" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^true$/gm.test(output1) && !/^false$/.test(output1) && !/^true$/gm.test(output2) && /^false$/gm.test(output2))
+
+at Context.<anonymous> (test/588.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ You should run your script with the correct argument
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === './countdown.sh' && (arg < 1 || isNaN(arg) || /\./.test(lastCommand[1])) && /\/project$/.test(cwd))
+
+at Context.<anonymous> (test/610.test.js:10:5)
+FAILED TEST LOG
+  ✘ You should run your script with the correct argument
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === './countdown.sh' && (arg < 1 || isNaN(arg) || /\./.test(lastCommand[1])) && /\/project$/.test(cwd))
+
+at Context.<anonymous> (test/610.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "for" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^3\n2\n1\n$/g.test(output))
+
+at Context.<anonymous> (test/620.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "for" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^3\n2\n1\n$/g.test(output))
+
+at Context.<anonymous> (test/620.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'man' && lastCommand[1] === 'sleep')
+
+at Context.<anonymous> (test/670.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'man' && lastCommand[1] === 'sleep')
+
+at Context.<anonymous> (test/670.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'man' && lastCommand[1] === 'sleep')
+
+at Context.<anonymous> (test/670.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Countdown Timer ~~\n{2}1\n0\n/g.test(output))
+
+at Context.<anonymous> (test/696.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Countdown Timer ~~\n{2}1\n0\n/g.test(output))
+
+at Context.<anonymous> (test/696.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Countdown Timer ~~\n{2}1\n0\n/g.test(output))
+
+at Context.<anonymous> (test/696.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Countdown Timer ~~\n{2}1\n0\n/g.test(output))
+
+at Context.<anonymous> (test/696.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+Error: Command failed: ./countdown.sh 1
+./countdown.sh: line 5: unexpected EOF while looking for matching `"'
+./countdown.sh: line 18: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+Error: Command failed: ./countdown.sh 1
+./countdown.sh: line 5: unexpected EOF while looking for matching `"'
+./countdown.sh: line 18: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Countdown Timer ~~\n{2}1\n0\n/g.test(output))
+
+at Context.<anonymous> (test/696.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comment added correctly
+
+Error: Command failed: ./countdown.sh 1
+./countdown.sh: line 15: syntax error near unexpected token `else'
+./countdown.sh: line 15: `else'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comment added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Countdown Timer ~~\n{2}/g.test(output) && !/1/g.test(output) && /:[ \t]+'[^']*'[ \t]*?\n+/g.test(scriptFile))
+
+at Context.<anonymous> (test/700.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comment added correctly
+
+Error: Command failed: ./countdown.sh 1
+./countdown.sh: line 10: syntax error near unexpected token `('
+./countdown.sh: line 10: `:  for (( i = $1; i >= 0; i-- ))'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comment added correctly
+
+Error: Command failed: ./countdown.sh 1
+./countdown.sh: line 10: unexpected EOF while looking for matching `''
+./countdown.sh: line 18: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'help' && lastCommand[1] === 'while')
+
+at Context.<anonymous> (test/710.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/1/g.test(output) && /I=('|"|)\$1\1/.test(scriptFile))
+
+at Context.<anonymous> (test/730.test.js:9:5)

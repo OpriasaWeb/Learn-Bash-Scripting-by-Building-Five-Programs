@@ -1,0 +1,531 @@
+FAILED TEST LOG
+  ✘ Your script should have the correct "shebang"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*#![ \t]*\/bin\/bash\s*$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/60.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "shebang"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*#![ \t]*\/bin\/bash\s*$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/60.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "shebang"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*#![ \t]*\/bin\/bash\s*$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/60.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "ls" command added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*ls[ \t]+-l[ \t]*;?\s*$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/140.test.js:8:5)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 3: unexpected EOF while looking for matching `"'
+./.freeCodeCamp/test.sh: line 5: syntax error: unexpected end of file
+  ✘ Your script should "echo" the suggested variable correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 3: unexpected EOF while looking for matching `"'
+./.freeCodeCamp/test.sh: line 5: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should use "read" to get input into the correct variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*read[ \t]+NAME[ \t]*;?\s*$/gm.test(scriptFile) && /^me$/gm.test(output))
+
+at Context.<anonymous> (test/200.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should use "read" to get input into the correct variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*read[ \t]+NAME[ \t]*;?\s*$/gm.test(scriptFile) && /^me$/gm.test(output))
+
+at Context.<anonymous> (test/200.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+('|"|)Hello[ \t]+\$NAME\.\1[ \t]*;?\s*$/gm.test(scriptFile) && /^Hello me\.$/gm.test(output))
+
+at Context.<anonymous> (test/210.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+('|"|)Hello[ \t]+\$NAME\.\1[ \t]*;?\s*$/gm.test(scriptFile) && /^Hello me\.$/gm.test(output))
+
+at Context.<anonymous> (test/210.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^Where are you from\?$/gm.test(output))
+
+at Context.<anonymous> (test/230.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested variable correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+('|")?\$QUESTION2\1?[ \t]*;?\s*$/gm.test(scriptFile) && /^Where are you from\?$/gm.test(output))
+
+at Context.<anonymous> (test/240.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested variable correctly
+
+Error: Command failed: ./questionnaire.sh
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested variable correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+('|")?\$QUESTION2\1?[ \t]*;?\s*$/gm.test(scriptFile) && /^Where are you from\?$/gm.test(output))
+
+at Context.<anonymous> (test/240.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested variable correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+('|")?\$QUESTION2\1?[ \t]*;?\s*$/gm.test(scriptFile) && /^Where are you from\?$/gm.test(output))
+
+at Context.<anonymous> (test/240.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested variable correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+('|")?\$QUESTION2\1?[ \t]*;?\s*$/gm.test(scriptFile) && /^Where are you from\?$/gm.test(output))
+
+at Context.<anonymous> (test/240.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested variable correctly
+
+Error: Command failed: ./questionnaire.sh
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+('|"|)Hello[ \t]+\$NAME from \$LOCATION\.\1[ \t]*;?\s*$/gm.test(scriptFile) && /^Hello me from here\.$/gm.test(output))
+
+at Context.<anonymous> (test/260.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+('|"|)Hello[ \t]+\$NAME from \$LOCATION\.\1[ \t]*;?\s*$/gm.test(scriptFile) && /^Hello me from here\.$/gm.test(output))
+
+at Context.<anonymous> (test/260.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+
+./questionnaire.sh: line 5: unexpected EOF while looking for matching `''
+./questionnaire.sh: line 15: syntax error: unexpected end of file
+  ✘ Your script should "echo" the suggested text correctly
+
+Error: Command failed: ./questionnaire.sh
+./questionnaire.sh: line 5: unexpected EOF while looking for matching `''
+./questionnaire.sh: line 15: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'echo' && lastCommand[1] === '--help')
+
+at Context.<anonymous> (test/300.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^n~~ Questionnaire ~~n$/gm.test(output))
+
+at Context.<anonymous> (test/320.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^n~~ Questionnaire ~~n$/gm.test(output))
+
+at Context.<anonymous> (test/320.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^n~~ Questionnaire ~~n$/gm.test(output))
+
+at Context.<anonymous> (test/320.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Questionnaire ~~\n{2}/g.test(output))
+
+at Context.<anonymous> (test/326.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Questionnaire ~~\n{2}/g.test(output))
+
+at Context.<anonymous> (test/326.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^What's your favorite coding website\?$/gm.test(output))
+
+at Context.<anonymous> (test/340.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 13: unexpected EOF while looking for matching `"'
+./.freeCodeCamp/test.sh: line 17: syntax error: unexpected end of file
+  ✘ Your script should have the suggested variable added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 13: unexpected EOF while looking for matching `"'
+./.freeCodeCamp/test.sh: line 17: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at ChildProcess._handle.onexit (node:internal/child_process:303:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^What's your favorite coding website\?$/gm.test(output))
+
+at Context.<anonymous> (test/340.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested variable correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+('|")?\$QUESTION3\1?[ \t]*;?\s*$/gm.test(scriptFile) && /^What's your favorite coding website\?$/gm.test(output))
+
+at Context.<anonymous> (test/345.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested variable correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+('|")?\$QUESTION3\1?[ \t]*;?\s*$/gm.test(scriptFile) && /^What's your favorite coding website\?$/gm.test(output))
+
+at Context.<anonymous> (test/345.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested variable correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+('|")?\$QUESTION3\1?[ \t]*;?\s*$/gm.test(scriptFile) && /^What's your favorite coding website\?$/gm.test(output))
+
+at Context.<anonymous> (test/345.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+('|"|)Hello[ \t]+\$NAME from \$LOCATION\. I learned that your favorite coding website is \$WEBSITE!\1[ \t]*;?\s*$/gm.test(scriptFile) && /^Hello me from here. I learned that your favorite coding website is freeCodeCamp!$/gm.test(output))
+
+at Context.<anonymous> (test/360.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+('|"|)Hello[ \t]+\$NAME from \$LOCATION\. I learned that your favorite coding website is \$WEBSITE!\1[ \t]*;?\s*$/gm.test(scriptFile) && /^Hello me from here. I learned that your favorite coding website is freeCodeCamp!$/gm.test(output))
+
+at Context.<anonymous> (test/360.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+('|"|)Hello[ \t]+\$NAME from \$LOCATION\. I learned that your favorite coding website is \$WEBSITE!\1[ \t]*;?\s*$/gm.test(scriptFile) && /^Hello me from here. I learned that your favorite coding website is freeCodeCamp!$/gm.test(output))
+
+at Context.<anonymous> (test/360.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+('|"|)Hello[ \t]+\$NAME from \$LOCATION\. I learned that your favorite coding website is \$WEBSITE!\1[ \t]*;?\s*$/gm.test(scriptFile) && /^Hello me from here. I learned that your favorite coding website is freeCodeCamp!$/gm.test(output))
+
+at Context.<anonymous> (test/360.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+('|"|)Hello[ \t]+\$NAME from \$LOCATION\. I learned that your favorite coding website is \$WEBSITE!\1[ \t]*;?\s*$/gm.test(scriptFile) && /^Hello me from here. I learned that your favorite coding website is freeCodeCamp!$/gm.test(output))
+
+at Context.<anonymous> (test/360.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+('|"|)Hello[ \t]+\$NAME from \$LOCATION\. I learned that your favorite coding website is \$WEBSITE!\1[ \t]*;?\s*$/gm.test(scriptFile) && /^Hello me from here. I learned that your favorite coding website is freeCodeCamp!$/gm.test(output))
+
+at Context.<anonymous> (test/360.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggestion correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^[ \t]*echo[ \t]+\$(\*|@)[ \t]*;?[ \t]*$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/420.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'help' && (lastCommand[1] === undefined || lastCommand[1].op === ';'))
+
+at Context.<anonymous> (test/460.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'help' && (lastCommand[1] === undefined || lastCommand[1].op === ';'))
+
+at Context.<anonymous> (test/460.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./countdown.sh arg1
+./countdown.sh: line 6: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./countdown.sh arg1
+./countdown.sh: line 6: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./countdown.sh arg1
+./countdown.sh: line 5: syntax error near `]]'
+./countdown.sh: line 5: `if [[  ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./countdown.sh arg1
+./countdown.sh: line 5: unexpected token `&' in conditional command
+./countdown.sh: line 5: syntax error near `&1'
+./countdown.sh: line 5: `if [[ &1 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./countdown.sh arg1
+./countdown.sh: line 5: unexpected token `&' in conditional command
+./countdown.sh: line 5: syntax error near `&1'
+./countdown.sh: line 5: `if [[ &1 === arg1 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./countdown.sh arg1
+./countdown.sh: line 5: unexpected token `&' in conditional command
+./countdown.sh: line 5: syntax error near `&1'
+./countdown.sh: line 5: `if [[ &1 === arg1 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./countdown.sh arg1
+./countdown.sh: line 5: unexpected token `&' in conditional command
+./countdown.sh: line 5: syntax error near `&1'
+./countdown.sh: line 5: `if [[ &1 === arg1 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./countdown.sh arg1
+./countdown.sh: line 5: unexpected token `&' in conditional command
+./countdown.sh: line 5: syntax error near `&1'
+./countdown.sh: line 5: `if [[ &1 === arg1 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./countdown.sh arg1
+./countdown.sh: line 5: unexpected token `&' in conditional command
+./countdown.sh: line 5: syntax error near `&1'
+./countdown.sh: line 5: `if [[ &1 == arg1 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./countdown.sh arg1
+./countdown.sh: line 5: unexpected token `&' in conditional command
+./countdown.sh: line 5: syntax error near `&1'
+./countdown.sh: line 5: `if [[ &1 == arg1 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ You should run your script with the correct arguments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === './countdown.sh' && lastCommand[1] !== 'arg1' && /\/project$/.test(cwd))
+
+at Context.<anonymous> (test/505.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if/else" statement added correctly
+
+Error: Command failed: ./countdown.sh arg1
+./countdown.sh: line 10: syntax error near unexpected token `fi'
+./countdown.sh: line 10: `fi'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)

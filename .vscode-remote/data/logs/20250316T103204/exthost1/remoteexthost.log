@@ -1,0 +1,356 @@
+2025-03-16 10:32:08.532 [info] Extension host with pid 124 started
+2025-03-16 10:32:08.532 [error] Error: EEXIST: file already exists, open '/workspace/.vscode-remote/data/User/workspaceStorage/-1fc36c54/vscode.lock'
+2025-03-16 10:32:08.533 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-1fc36c54/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-03-16 10:32:08.534 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-1fc36c54/vscode.lock': The lock does not look stale, elapsed: 281087 ms, giving up.
+2025-03-16 10:32:08.536 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-1fc36c54-1/vscode.lock': Lock acquired.
+2025-03-16 10:32:08.898 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-03-16 10:32:08.899 [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: false, activationEvent: 'onAuthenticationRequest:gitpod'
+2025-03-16 10:32:09.457 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-03-16 10:32:09.635 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-03-16 10:32:09.635 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-03-16 10:32:09.964 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2025-03-16 10:32:10.112 [info] Eager extensions activated
+2025-03-16 10:32:10.113 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-03-16 10:32:10.113 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-03-16 10:32:10.114 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2025-03-16 10:32:10.324 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-03-16 10:32:10.586 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-03-16 10:32:10.587 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-03-16 10:32:10.649 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-03-16 10:32:10.692 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-03-16 10:32:10.693 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-03-16 10:32:10.693 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-03-16 10:35:50.047 [info] ExtensionService#_doActivateExtension CodeRoad.coderoad, startup: false, activationEvent: 'onCommand:coderoad.start'
+2025-03-16 10:36:33.385 [error] Error: Command failed: git commit -am 'Save progress: 828.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-03-16 10:38:59.296 [error] Error: Command failed: git commit -am 'Save progress: 835.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-03-16 10:42:04.039 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-03-16 10:54:02.449 [error] Error: Command failed: git commit -am 'Save progress: 928.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-03-16 10:54:58.830 [error] Error: Command failed: git commit -am 'Save progress: 940.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-03-16 11:11:09.135 [error] Error: Command failed: git commit -am 'Save progress: 950.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-03-16 11:13:13.372 [error] Error: Command failed: git commit -am 'Save progress: 960.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-03-16 11:14:13.923 [error] Error: Command failed: git commit -am 'Save progress: 970.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-03-16 11:14:47.229 [error] Error: Command failed: git commit -am 'Save progress: 980.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-03-16 11:15:23.561 [error] Error: Command failed: git commit -am 'Save progress: 990.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-03-16 11:19:32.061 [error] Error: Command failed: git commit -am 'Save progress: 1030.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-03-16 11:19:41.500 [error] Error: Command failed: git commit -am 'Save progress: 1040.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-03-16 11:20:13.171 [error] Error: Command failed: git commit -am 'Save progress: 1050.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-03-16 11:28:58.287 [error] Error: Command failed: git commit -am 'Save progress: 1110.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-03-16 11:29:42.317 [error] Error: Command failed: git commit -am 'Save progress: 1120.1'
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2025-03-16 11:32:51.931 [info] Extension host terminating: received terminate message from renderer
+2025-03-16 11:32:51.932 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-1fc36c54-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-03-16 11:32:51.980 [error] Canceled: Canceled
+	at new YT (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:128073)
+	at jy.U (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:132683)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:130177)
+	at vw.g (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:32371)
+	at vw.executeCommand (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:31875)
+	at r.registerCommand.description (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:31205)
+	at vw.h (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:32891)
+	at vw.g (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:31968)
+	at vw.executeCommand (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:31875)
+	at Object.executeCommand (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:172:37256)
+	at Th.L [as value] (/ide/extensions/git/dist/main.js:2:997602)
+	at D.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.C (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2443)
+	at D.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2660)
+	at Object.p [as dispose] (/ide/extensions/git/dist/main.js:2:1020242)
+	at /ide/extensions/git/dist/main.js:2:1026621
+	at Array.forEach (<anonymous>)
+	at b.dispose (/ide/extensions/git/dist/main.js:2:1026607)
+	at lv.<anonymous> (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:106:20084)
+	at lv.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:106:20180)
+	at lv.<anonymous> (/ide/extensions/git/dist/main.js:2:1000086)
+	at lv.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:106:20180)
+	at ui (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:14992
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+	at Object.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at AW.eb (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:11919)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:9874
+	at Array.map (<anonymous>)
+	at AW.$ (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:9862)
+	at AW.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:10105)
+	at bC.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at ts (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:190:15080)
+	at Th.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:190:13241)
+	at D.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at Xn.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at Jm.A (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:12574)
+	at Th.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:10994)
+	at D.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at v6.acceptChunk (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:7941)
+	at Th.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:7227)
+	at D.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at HA.z (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:21925) setContext undefined
+2025-03-16 11:32:51.981 [error] Canceled: Canceled
+	at new YT (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:128073)
+	at jy.U (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:132683)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:130177)
+	at vw.g (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:32371)
+	at vw.executeCommand (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:31875)
+	at r.registerCommand.description (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:31205)
+	at vw.h (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:32891)
+	at vw.g (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:31968)
+	at vw.executeCommand (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:31875)
+	at Object.executeCommand (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:172:37256)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/ide/extensions/github/dist/extension.js:2:344164)
+	at /ide/extensions/github/dist/extension.js:2:345123
+	at Th.value (/ide/extensions/git/dist/main.js:2:1117802)
+	at D.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.C (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2443)
+	at D.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2660)
+	at Object.p [as dispose] (/ide/extensions/git/dist/main.js:2:1020242)
+	at /ide/extensions/git/dist/main.js:2:1026621
+	at Array.forEach (<anonymous>)
+	at b.dispose (/ide/extensions/git/dist/main.js:2:1026607)
+	at lv.<anonymous> (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:106:20084)
+	at lv.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:106:20180)
+	at lv.<anonymous> (/ide/extensions/git/dist/main.js:2:1000086)
+	at lv.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:106:20180)
+	at ui (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:14992
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+	at Object.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at AW.eb (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:11919)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:9874
+	at Array.map (<anonymous>)
+	at AW.$ (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:9862)
+	at AW.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:10105)
+	at bC.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at ts (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:190:15080)
+	at Th.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:190:13241)
+	at D.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at Xn.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at Jm.A (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:12574)
+	at Th.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:10994)
+	at D.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at v6.acceptChunk (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:7941)
+	at Th.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:7227)
+	at D.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at HA.z (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:21925) setContext undefined
+2025-03-16 11:32:51.984 [error] Canceled: Canceled
+	at new YT (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:128073)
+	at jy.U (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:132683)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:130177)
+	at vw.g (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:32371)
+	at vw.executeCommand (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:31875)
+	at r.registerCommand.description (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:31205)
+	at vw.h (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:32891)
+	at vw.g (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:31968)
+	at vw.executeCommand (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:31875)
+	at Object.executeCommand (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:172:37256)
+	at e (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.106.0-universal/dist/extension.js:2081:447845)
+	at Object.i [as setContext] (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.106.0-universal/dist/extension.js:2081:447960)
+	at Mf.updateActiveReviewCount (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.106.0-universal/dist/extension.js:2190:21287)
+	at Mf.removeRepo (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.106.0-universal/dist/extension.js:2190:22472)
+	at Th.value (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.106.0-universal/dist/extension.js:2526:4265)
+	at D.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.C (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2443)
+	at D.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2660)
+	at Th.value (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.106.0-universal/dist/extension.js:2081:444625)
+	at D.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.106.0-universal/dist/extension.js:2190:26488
+	at Th.value (/ide/extensions/git/dist/main.js:2:1117802)
+	at D.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.C (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2443)
+	at D.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2660)
+	at Object.p [as dispose] (/ide/extensions/git/dist/main.js:2:1020242)
+	at /ide/extensions/git/dist/main.js:2:1026621
+	at Array.forEach (<anonymous>)
+	at b.dispose (/ide/extensions/git/dist/main.js:2:1026607)
+	at lv.<anonymous> (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:106:20084)
+	at lv.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:106:20180)
+	at lv.<anonymous> (/ide/extensions/git/dist/main.js:2:1000086)
+	at lv.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:106:20180)
+	at ui (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:14992
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+	at Object.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at AW.eb (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:11919)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:9874
+	at Array.map (<anonymous>)
+	at AW.$ (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:9862)
+	at AW.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:10105)
+	at bC.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at ts (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:190:15080)
+	at Th.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:190:13241)
+	at D.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at Xn.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at Jm.A (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:12574)
+	at Th.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:10994)
+	at D.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at v6.acceptChunk (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:7941)
+	at Th.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:7227)
+	at D.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at HA.z (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:21925) setContext undefined
+2025-03-16 11:32:51.984 [error] Canceled: Canceled
+	at new YT (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:128073)
+	at jy.U (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:132683)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:130177)
+	at vw.g (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:32371)
+	at vw.executeCommand (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:31875)
+	at r.registerCommand.description (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:31205)
+	at vw.h (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:32891)
+	at vw.g (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:31968)
+	at vw.executeCommand (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:112:31875)
+	at Object.executeCommand (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:172:37256)
+	at e (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.106.0-universal/dist/extension.js:2081:447845)
+	at Object.i [as setContext] (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.106.0-universal/dist/extension.js:2081:447960)
+	at hf.setReviewModeContexts (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.106.0-universal/dist/extension.js:2513:19366)
+	at hf.removePrFromView (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.106.0-universal/dist/extension.js:2513:19993)
+	at Of.clear (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.106.0-universal/dist/extension.js:2171:8134)
+	at Of.dispose (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.106.0-universal/dist/extension.js:2173:188)
+	at Ef.removeReviewManager (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.106.0-universal/dist/extension.js:2513:51034)
+	at Th.value (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.106.0-universal/dist/extension.js:2526:4283)
+	at D.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.C (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2443)
+	at D.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2660)
+	at Th.value (/workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.106.0-universal/dist/extension.js:2081:444625)
+	at D.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.106.0-universal/dist/extension.js:2190:26488
+	at Th.value (/ide/extensions/git/dist/main.js:2:1117802)
+	at D.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.C (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2443)
+	at D.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2660)
+	at Object.p [as dispose] (/ide/extensions/git/dist/main.js:2:1020242)
+	at /ide/extensions/git/dist/main.js:2:1026621
+	at Array.forEach (<anonymous>)
+	at b.dispose (/ide/extensions/git/dist/main.js:2:1026607)
+	at lv.<anonymous> (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:106:20084)
+	at lv.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:106:20180)
+	at lv.<anonymous> (/ide/extensions/git/dist/main.js:2:1000086)
+	at lv.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:106:20180)
+	at ui (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:14992
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+	at Object.dispose (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at AW.eb (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:11919)
+	at file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:9874
+	at Array.map (<anonymous>)
+	at AW.$ (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:9862)
+	at AW.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:116:10105)
+	at bC.terminate (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:117:1434)
+	at ts (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:190:15080)
+	at Th.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:190:13241)
+	at D.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at Xn.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at Jm.A (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:12574)
+	at Th.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:10994)
+	at D.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at v6.acceptChunk (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:7941)
+	at Th.value (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:7227)
+	at D.B (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at HA.z (file:///ide/out/vs/workbench/api/node/extensionHostProcess.js:29:21925) setContext undefined
+2025-03-16 11:32:51.987 [info] Extension host with pid 124 exiting with code 0

@@ -1,0 +1,1598 @@
+coderoad v0.19.4
+STATE: "Setup.Startup"
+ROUTE: "Setup.Startup": On level unknown, step unknown
+EDITOR_STARTUP
+Continuing tutorial from progress: level 554 step 554.1
+LOAD_STORED_TUTORIAL
+EDITOR_TUTORIAL_CONTINUE_CONFIG
+Tutorial: Learn Bash Scripting by Building Five Programs (2.0.0)
+Command: ./.freeCodeCamp/setup.sh
+COMMAND_START
+Calling command: ./.freeCodeCamp/setup.sh
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 554, step 554.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 554, step 554.1
+Calling command: git log -n 1 --pretty=format:%s d4f02b901417c94206bcb71fa80fb102bb4246bb
+Calling command: git log -g --grep='554.1'
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+Command output: 
+COMMAND_SUCCESS
+Command: ./.freeCodeCamp/reset.sh
+COMMAND_START
+Calling command: ./.freeCodeCamp/reset.sh
+Command output: 
+COMMAND_SUCCESS
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 554, step 554.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 554, step 554.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 554, step 554.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 554, step 554.1
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 554, step 554.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 554, step 554.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 554, step 554.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"554.1","levelId":"554","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"554.1","levelId":"554","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 554.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 554, step 554.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 554, step 554.1
+Commit saved: [main ceb88f9] Save progress: 554.1
+ 2 files changed, 34 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 554, step 554.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 556, step 556.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 556, step 556.1
+Calling command: git log -n 1 --pretty=format:%s ed94e2aff2d7efb90f27b6a985cb6562dd0ff480
+Calling command: git log -g --grep='556.1'
+Calling command: git cherry-pick -X theirs ed94e2aff2d7efb90f27b6a985cb6562dd0ff480
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 556, step 556.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 556, step 556.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 556, step 556.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 556, step 556.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 556, step 556.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 556, step 556.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 556, step 556.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 556, step 556.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 556, step 556.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 556, step 556.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 556, step 556.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 556, step 556.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 556, step 556.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"556.1","levelId":"556","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"556.1","levelId":"556","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 556.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 556, step 556.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 556, step 556.1
+Commit saved: [main 23d4541] Save progress: 556.1
+ 2 files changed, 14 insertions(+)
+
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 558, step 558.1
+Calling command: git log -n 1 --pretty=format:%s 257edd9f345de90e8ab18b2f4c0782aa1c73a3c5
+Calling command: git log -g --grep='558.1'
+Calling command: git cherry-pick -X theirs 257edd9f345de90e8ab18b2f4c0782aa1c73a3c5
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 558, step 558.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"558.1","levelId":"558","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"558.1","levelId":"558","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 558.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 558, step 558.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 558, step 558.1
+Commit saved: [main 8ab01e3] Save progress: 558.1
+ 2 files changed, 2 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 558, step 558.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 560, step 560.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 560, step 560.1
+Calling command: git log -n 1 --pretty=format:%s 55ab86cb5207d4c47dd485204e36f88e6e42f527
+Calling command: git log -g --grep='560.1'
+Calling command: git cherry-pick -X theirs 55ab86cb5207d4c47dd485204e36f88e6e42f527
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 560, step 560.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"560.1","levelId":"560","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"560.1","levelId":"560","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 560.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 560, step 560.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 560, step 560.1
+Commit saved: [main 400c55a] Save progress: 560.1
+ 2 files changed, 2 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 560, step 560.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 562, step 562.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 562, step 562.1
+Calling command: git log -n 1 --pretty=format:%s c330e8ae81ef028e424b1300519deefdd57861f6
+Calling command: git log -g --grep='562.1'
+Calling command: git cherry-pick -X theirs c330e8ae81ef028e424b1300519deefdd57861f6
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 562, step 562.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"562.1","levelId":"562","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"562.1","levelId":"562","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 562.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 562, step 562.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 562, step 562.1
+Commit saved: [main 9edc73e] Save progress: 562.1
+ 2 files changed, 2 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 562, step 562.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 564, step 564.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 564, step 564.1
+Calling command: git log -n 1 --pretty=format:%s f8d172acfa090a77f4d686f980f68eb980f2d6c3
+Calling command: git log -g --grep='564.1'
+Calling command: git cherry-pick -X theirs f8d172acfa090a77f4d686f980f68eb980f2d6c3
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 564, step 564.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 564, step 564.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 564, step 564.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 564, step 564.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 564, step 564.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 564, step 564.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 564, step 564.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 564, step 564.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 564, step 564.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 564, step 564.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 564, step 564.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 564, step 564.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 564, step 564.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 564, step 564.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 564, step 564.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 564, step 564.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 564, step 564.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 564, step 564.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 564, step 564.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"564.1","levelId":"564","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"564.1","levelId":"564","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 564.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 564, step 564.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 564, step 564.1
+Commit saved: [main d26265d] Save progress: 564.1
+ 2 files changed, 20 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 564, step 564.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 566, step 566.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 566, step 566.1
+Calling command: git log -n 1 --pretty=format:%s 8c66e3e4082e5c8fced897708d8b0980b2ad8a9b
+Calling command: git log -g --grep='566.1'
+Calling command: git cherry-pick -X theirs 8c66e3e4082e5c8fced897708d8b0980b2ad8a9b
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 566, step 566.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"566.1","levelId":"566","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"566.1","levelId":"566","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 566.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 566, step 566.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 566, step 566.1
+Commit saved: [main e6727d6] Save progress: 566.1
+ 2 files changed, 2 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 566, step 566.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 568, step 568.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 568, step 568.1
+Calling command: git log -n 1 --pretty=format:%s 63fc31a6ff66f209309e180cf58eb6e14bcf8076
+Calling command: git log -g --grep='568.1'
+Calling command: git cherry-pick -X theirs 63fc31a6ff66f209309e180cf58eb6e14bcf8076
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 568, step 568.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"568.1","levelId":"568","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"568.1","levelId":"568","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 568.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 568, step 568.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 568, step 568.1
+Commit saved: [main cf66474] Save progress: 568.1
+ 2 files changed, 2 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 568, step 568.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 570, step 570.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 570, step 570.1
+Calling command: git log -n 1 --pretty=format:%s e377095821bf677c401985c5292fc3f4f1d9ed9e
+Calling command: git log -g --grep='570.1'
+Calling command: git cherry-pick -X theirs e377095821bf677c401985c5292fc3f4f1d9ed9e
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 570, step 570.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"570.1","levelId":"570","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"570.1","levelId":"570","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 570.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 570, step 570.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 570, step 570.1
+Commit saved: [main 2958d37] Save progress: 570.1
+ 2 files changed, 2 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 570, step 570.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 572, step 572.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 572, step 572.1
+Calling command: git log -n 1 --pretty=format:%s c586c030659c56b99f1cad4a227e1fa264967626
+Calling command: git log -g --grep='572.1'
+Calling command: git cherry-pick -X theirs c586c030659c56b99f1cad4a227e1fa264967626
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 572, step 572.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"572.1","levelId":"572","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"572.1","levelId":"572","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 572.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 572, step 572.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 572, step 572.1
+Commit saved: [main 665880f] Save progress: 572.1
+ 2 files changed, 2 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 572, step 572.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 574, step 574.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 574, step 574.1
+Calling command: git log -n 1 --pretty=format:%s fda649ff2984edc083d2dd2f4921b405fd6200c7
+Calling command: git log -g --grep='574.1'
+Calling command: git cherry-pick -X theirs fda649ff2984edc083d2dd2f4921b405fd6200c7
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 574, step 574.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"574.1","levelId":"574","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"574.1","levelId":"574","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 574.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 574, step 574.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 574, step 574.1
+Commit saved: [main d9a1d9f] Save progress: 574.1
+ 2 files changed, 2 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 574, step 574.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 575, step 575.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 575, step 575.1
+Calling command: git log -n 1 --pretty=format:%s eaec2237be298f4f5877c3853ae11db6be4aac64
+Calling command: git log -g --grep='575.1'
+Calling command: git cherry-pick -X theirs eaec2237be298f4f5877c3853ae11db6be4aac64
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 575, step 575.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 575, step 575.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 575, step 575.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"575.1","levelId":"575","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"575.1","levelId":"575","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 575.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 575, step 575.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 575, step 575.1
+Commit saved: [main 7413089] Save progress: 575.1
+ 2 files changed, 4 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 575, step 575.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 576, step 576.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 576, step 576.1
+Calling command: git log -n 1 --pretty=format:%s 26e5ec03be605f844d852d8f56ddcd9b4295de13
+Calling command: git log -g --grep='576.1'
+Calling command: git cherry-pick -X theirs 26e5ec03be605f844d852d8f56ddcd9b4295de13
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 576, step 576.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 576, step 576.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 576, step 576.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 576, step 576.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 576, step 576.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"576.1","levelId":"576","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"576.1","levelId":"576","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 576.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 576, step 576.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 576, step 576.1
+Commit saved: [main 9a86aba] Save progress: 576.1
+ 2 files changed, 6 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 576, step 576.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 582, step 582.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 582, step 582.1
+Calling command: git log -n 1 --pretty=format:%s 163f74988205a92952f1b196e3b20daddd2ad5d1
+Calling command: git log -g --grep='582.1'
+Calling command: git cherry-pick -X theirs 163f74988205a92952f1b196e3b20daddd2ad5d1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 582, step 582.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"582.1","levelId":"582","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"582.1","levelId":"582","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 582.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 582, step 582.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 582, step 582.1
+Commit saved: [main 7603a58] Save progress: 582.1
+ 2 files changed, 2 insertions(+)
+
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 584, step 584.1
+Calling command: git log -n 1 --pretty=format:%s 3d3c2892f160c8f51590b1beb629316c81736c13
+Calling command: git log -g --grep='584.1'
+Calling command: git cherry-pick -X theirs 3d3c2892f160c8f51590b1beb629316c81736c13
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 584, step 584.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"584.1","levelId":"584","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"584.1","levelId":"584","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 584.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 584, step 584.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 584, step 584.1
+Commit saved: [main e83c38e] Save progress: 584.1
+ 2 files changed, 2 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 584, step 584.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 586, step 586.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 586, step 586.1
+Calling command: git log -n 1 --pretty=format:%s 3d966920ad3e23d5d30ea807ef7520f12498e6bf
+Calling command: git log -g --grep='586.1'
+Calling command: git cherry-pick -X theirs 3d966920ad3e23d5d30ea807ef7520f12498e6bf
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 586, step 586.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"586.1","levelId":"586","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"586.1","levelId":"586","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 586.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 586, step 586.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 586, step 586.1
+Commit saved: [main 1f40e4d] Save progress: 586.1
+ 2 files changed, 2 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 586, step 586.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 588, step 588.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 588, step 588.1
+Calling command: git log -n 1 --pretty=format:%s 22640e91bb5ec9c298e7cb6cc0693ef795dbeb1d
+Calling command: git log -g --grep='588.1'
+Calling command: git cherry-pick -X theirs 22640e91bb5ec9c298e7cb6cc0693ef795dbeb1d
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 588, step 588.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 588, step 588.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 588, step 588.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 588, step 588.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 588, step 588.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"588.1","levelId":"588","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"588.1","levelId":"588","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 588.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 588, step 588.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 588, step 588.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 590, step 590.1
+Calling command: git log -n 1 --pretty=format:%s c2630e5685a4f1b2ee241041df7a7fd1f075a0b6
+Calling command: git log -g --grep='590.1'
+Calling command: git cherry-pick -X theirs c2630e5685a4f1b2ee241041df7a7fd1f075a0b6
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 590, step 590.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"590.1","levelId":"590","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"590.1","levelId":"590","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 590.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 590, step 590.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 590, step 590.1
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 590, step 590.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 600, step 600.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 600, step 600.1
+Calling command: git log -n 1 --pretty=format:%s e2e2e7be210c64523265a3ee75c2ee87227a219f
+Calling command: git log -g --grep='600.1'
+Calling command: git cherry-pick -X theirs e2e2e7be210c64523265a3ee75c2ee87227a219f
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 600, step 600.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"600.1","levelId":"600","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"600.1","levelId":"600","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 600.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 600, step 600.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 600, step 600.1
+Commit saved: [main 9b97e07] Save progress: 600.1
+ 2 files changed, 2 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 600, step 600.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 610, step 610.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 610, step 610.1
+Calling command: git log -n 1 --pretty=format:%s 601e8acaa39e0975040dca2272ef1b07fe26bc3a
+Calling command: git log -g --grep='610.1'
+Calling command: git cherry-pick -X theirs 601e8acaa39e0975040dca2272ef1b07fe26bc3a
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 610, step 610.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 610, step 610.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 610, step 610.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 610, step 610.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 610, step 610.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"610.1","levelId":"610","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"610.1","levelId":"610","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 610.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 610, step 610.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 610, step 610.1
+Commit saved: [main ff2af5e] Save progress: 610.1
+ 2 files changed, 6 insertions(+)
+
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 615, step 615.1
+Calling command: git log -n 1 --pretty=format:%s 63b26df4d1981b82aec6b472525cb3f6439d8929
+Calling command: git log -g --grep='615.1'
+Calling command: git cherry-pick -X theirs 63b26df4d1981b82aec6b472525cb3f6439d8929
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 615, step 615.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"615.1","levelId":"615","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"615.1","levelId":"615","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 615.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 615, step 615.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 615, step 615.1
+Commit saved: [main 3d229aa] Save progress: 615.1
+ 2 files changed, 2 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 615, step 615.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 620, step 620.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 620, step 620.1
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+Calling command: git log -n 1 --pretty=format:%s 153928d689ffe4dad123e110a15c58fb9d737717
+Calling command: git log -g --grep='620.1'
+Calling command: git cherry-pick -X theirs 153928d689ffe4dad123e110a15c58fb9d737717
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 620, step 620.1
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 620, step 620.1
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 620, step 620.1
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 620, step 620.1
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 620, step 620.1
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"620.1","levelId":"620","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"620.1","levelId":"620","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 620.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 620, step 620.1
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 620, step 620.1
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 630, step 630.1
+Calling command: git log -n 1 --pretty=format:%s 06895b6ab56b83650651c8efcb03dd67930bba1f
+Calling command: git log -g --grep='630.1'
+Calling command: git cherry-pick -X theirs 06895b6ab56b83650651c8efcb03dd67930bba1f
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 630, step 630.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"630.1","levelId":"630","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"630.1","levelId":"630","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 630.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 630, step 630.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 630, step 630.1
+Commit saved: [main b19d3b6] Save progress: 630.1
+ 2 files changed, 2 insertions(+)
+
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 640, step 640.1
+Calling command: git log -n 1 --pretty=format:%s 2fbbdda735d2d4082d5cee253d36f228472f10ec
+Calling command: git log -g --grep='640.1'
+Calling command: git cherry-pick -X theirs 2fbbdda735d2d4082d5cee253d36f228472f10ec
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 640, step 640.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"640.1","levelId":"640","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"640.1","levelId":"640","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 640.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 640, step 640.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 640, step 640.1
+Commit saved: [main 5169bd6] Save progress: 640.1
+ 2 files changed, 2 insertions(+)
+
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 650, step 650.1
+Calling command: git log -n 1 --pretty=format:%s 4deeb938ad53ac2ffcd2cff5eaf5405244b183bc
+Calling command: git log -g --grep='650.1'
+Calling command: git cherry-pick -X theirs 4deeb938ad53ac2ffcd2cff5eaf5405244b183bc
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 650, step 650.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"650.1","levelId":"650","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"650.1","levelId":"650","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 650.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 650, step 650.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 650, step 650.1
+Commit saved: [main e62bac2] Save progress: 650.1
+ 2 files changed, 2 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 650, step 650.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 660, step 660.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 660, step 660.1
+Calling command: git log -n 1 --pretty=format:%s 966e3045d6e18ce9af6770b0d91e7ad944177b04
+Calling command: git log -g --grep='660.1'
+Calling command: git cherry-pick -X theirs 966e3045d6e18ce9af6770b0d91e7ad944177b04
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 660, step 660.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"660.1","levelId":"660","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"660.1","levelId":"660","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 660.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 660, step 660.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 660, step 660.1
+Commit saved: [main 912f77d] Save progress: 660.1
+ 2 files changed, 2 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 660, step 660.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 670, step 670.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 670, step 670.1
+Calling command: git log -n 1 --pretty=format:%s 0982916478e22aae338712d442262654e707bb41
+Calling command: git log -g --grep='670.1'
+Calling command: git cherry-pick -X theirs 0982916478e22aae338712d442262654e707bb41
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 670, step 670.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 670, step 670.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 670, step 670.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 670, step 670.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 670, step 670.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 670, step 670.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 670, step 670.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"670.1","levelId":"670","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"670.1","levelId":"670","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 670.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 670, step 670.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 670, step 670.1
+Commit saved: [main 4d19757] Save progress: 670.1
+ 2 files changed, 8 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 670, step 670.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 675, step 675.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 675, step 675.1
+Calling command: git log -n 1 --pretty=format:%s 270e7b2e46e772a1e638f96506afd2bea6af2515
+Calling command: git log -g --grep='675.1'
+Calling command: git cherry-pick -X theirs 270e7b2e46e772a1e638f96506afd2bea6af2515
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 675, step 675.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"675.1","levelId":"675","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"675.1","levelId":"675","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 675.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 675, step 675.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 675, step 675.1
+Commit saved: [main 07e8cc2] Save progress: 675.1
+ 2 files changed, 2 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 675, step 675.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 680, step 680.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 680, step 680.1
+Calling command: git log -n 1 --pretty=format:%s 8e337b8eea97cd1853de8ce1a3ad74796cd26237
+Calling command: git log -g --grep='680.1'
+Calling command: git cherry-pick -X theirs 8e337b8eea97cd1853de8ce1a3ad74796cd26237
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 680, step 680.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"680.1","levelId":"680","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"680.1","levelId":"680","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 680.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 680, step 680.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 680, step 680.1
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 680, step 680.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 690, step 690.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 690, step 690.1
+Calling command: git log -n 1 --pretty=format:%s caeacb82ada82d86f42e27fe3b165f64ff2a436f
+Calling command: git log -g --grep='690.1'
+Calling command: git cherry-pick -X theirs caeacb82ada82d86f42e27fe3b165f64ff2a436f
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 690, step 690.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"690.1","levelId":"690","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"690.1","levelId":"690","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 690.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 690, step 690.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 690, step 690.1
+Commit saved: [main efa8f83] Save progress: 690.1
+ 2 files changed, 2 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 690, step 690.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 692, step 692.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 692, step 692.1
+Calling command: git log -n 1 --pretty=format:%s 06c6d8ebbb5264303f833c6214147e02c190af3c
+Calling command: git log -g --grep='692.1'
+Calling command: git cherry-pick -X theirs 06c6d8ebbb5264303f833c6214147e02c190af3c
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 692, step 692.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"692.1","levelId":"692","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"692.1","levelId":"692","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 692.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 692, step 692.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 692, step 692.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 694, step 694.1
+Calling command: git log -n 1 --pretty=format:%s 95ada381bd7ff967d1151b087f5d3feded386f37
+Calling command: git log -g --grep='694.1'
+Calling command: git cherry-pick -X theirs 95ada381bd7ff967d1151b087f5d3feded386f37
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 694, step 694.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"694.1","levelId":"694","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"694.1","levelId":"694","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 694.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 694, step 694.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 694, step 694.1
+Commit saved: [main cff4cf4] Save progress: 694.1
+ 2 files changed, 2 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 694, step 694.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 696, step 696.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 696, step 696.1
+Calling command: git log -n 1 --pretty=format:%s d2af9b9ed136a65f744fd37f82b434ba320b4307
+Calling command: git log -g --grep='696.1'
+Calling command: git cherry-pick -X theirs d2af9b9ed136a65f744fd37f82b434ba320b4307
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 696, step 696.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 696, step 696.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 696, step 696.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 696, step 696.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 696, step 696.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 696, step 696.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 696, step 696.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 696, step 696.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 696, step 696.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 696, step 696.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 696, step 696.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 696, step 696.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 696, step 696.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 696, step 696.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 696, step 696.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"696.1","levelId":"696","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"696.1","levelId":"696","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 696.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 696, step 696.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 696, step 696.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 698, step 698.1
+Calling command: git log -n 1 --pretty=format:%s b83ee9759fb2ebe27a3480dceaff3aac8569923a
+Calling command: git log -g --grep='698.1'
+Calling command: git cherry-pick -X theirs b83ee9759fb2ebe27a3480dceaff3aac8569923a
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 698, step 698.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"698.1","levelId":"698","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"698.1","levelId":"698","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 698.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 698, step 698.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 698, step 698.1
+Commit saved: [main b9fe8d7] Save progress: 698.1
+ 2 files changed, 2 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 698, step 698.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 700, step 700.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 700, step 700.1
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+Calling command: git log -n 1 --pretty=format:%s 87f15f0086a2fce2eeaacb3b63a8978bb78d8030
+Calling command: git log -g --grep='700.1'
+Calling command: git cherry-pick -X theirs 87f15f0086a2fce2eeaacb3b63a8978bb78d8030
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 700, step 700.1
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 700, step 700.1
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 700, step 700.1
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 700, step 700.1
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 700, step 700.1
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 700, step 700.1
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 700, step 700.1
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 700, step 700.1
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 700, step 700.1
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"700.1","levelId":"700","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"700.1","levelId":"700","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 700.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 700, step 700.1
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 700, step 700.1
+Error highlighting markdown: Cannot read properties of undefined (reading 'rest')
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 710, step 710.1
+Calling command: git log -n 1 --pretty=format:%s 4599e7a4a9a85c6fe9461b7c6aea228c5d63d277
+Calling command: git log -g --grep='710.1'
+Calling command: git cherry-pick -X theirs 4599e7a4a9a85c6fe9461b7c6aea228c5d63d277
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 710, step 710.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 710, step 710.1
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 710, step 710.1
+---------------- TEST RESULTS -----------------
+Test pass position: {"stepId":"710.1","levelId":"710","complete":false}
+TEST_PASS
+updateStepPosition: {"type":"TEST_PASS","payload":{"position":{"stepId":"710.1","levelId":"710","complete":true}},"source":"coderoad"})
+EDITOR_STEP_COMPLETE
+Calling command: git commit -am 'Save progress: 710.1'
+STATE: "Tutorial.Level.StepNext"
+ROUTE: "Tutorial.Level.StepNext": Completed level 710, step 710.1
+EDITOR_LEVEL_COMPLETE
+STATE: "Tutorial.Level.LevelComplete"
+ROUTE: "Tutorial.Level.LevelComplete": Completed level 710, step 710.1
+Commit saved: [main b929ffc] Save progress: 710.1
+ 2 files changed, 4 insertions(+)
+
+KEY_PRESS_ENTER
+STATE: "Tutorial.Level.LoadNext"
+ROUTE: "Tutorial.Level.LoadNext": Completed level 710, step 710.1
+EDITOR_SYNC_POSITION
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 730, step 730.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 730, step 730.1
+Calling command: git log -n 1 --pretty=format:%s 9315b578a4dbe0083d390df034f752fe1eb032a9
+Calling command: git log -g --grep='730.1'
+Calling command: git cherry-pick -X theirs 9315b578a4dbe0083d390df034f752fe1eb032a9
+------------------- RUN TEST -------------------
+START_TEST
+COMMAND: npm run programmatic-test --reporter=mocha-tap-reporter
+Calling command: npm run programmatic-test --reporter=mocha-tap-reporter
+STATE: "Tutorial.Level.TestRunning"
+ROUTE: "Tutorial.Level.TestRunning": On level 730, step 730.1
+---------------- TEST RESULTS -----------------
+TEST_FAIL
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 730, step 730.1

@@ -1,0 +1,314 @@
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/1/g.test(output) && /I=('|"|)\$1\1/.test(scriptFile))
+
+at Context.<anonymous> (test/730.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "while" loop added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct math in the "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*\(\([ \t]*I[ \t]*--[ \t]*\)\)[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/750.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct math in the "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*\(\([ \t]*I[ \t]*--[ \t]*\)\)[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/750.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct math in the "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*\(\([ \t]*I[ \t]*--[ \t]*\)\)[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/750.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should correctly have the "sleep" in the "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*\(\([ \t]*I[ \t]*--[ \t]*\)\)[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*sleep[ \t]+1(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/760.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should correctly have the "sleep" in the "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*\(\([ \t]*I[ \t]*--[ \t]*\)\)[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*sleep[ \t]+1(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/760.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should correctly have the "sleep" in the "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*\(\([ \t]*I[ \t]*--[ \t]*\)\)[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*sleep[ \t]+1(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/760.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should correctly have the "sleep" in the "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/[ \t]*while[ \t]+\[\[[ \t]+\$I[ \t]+-ge[ \t]+0[ \t]+\]\][ \t]*(;\s*|;?[ \t]*\n+)[ \t]*do\s*echo[ \t]+\$I[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*\(\([ \t]*I[ \t]*--[ \t]*\)\)[ \t]*(;\s*|;?[ \t]*\n+)[ \t]*sleep[ \t]+1(;\s*|;?[ \t]*\n+)[ \t]*done[ \t]*(;|[ \t]*\n+)/g.test(scriptFile))
+
+at Context.<anonymous> (test/760.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should use the "touch" command to create the correct file
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(directoryContents.includes('bingo.sh') && lastCommand[0] === 'touch' && /bingo.sh/g.test(lastCommand[1]))
+
+at Context.<anonymous> (test/780.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should use the "touch" command to create the correct file
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(directoryContents.includes('bingo.sh') && lastCommand[0] === 'touch' && /bingo.sh/g.test(lastCommand[1]))
+
+at Context.<anonymous> (test/780.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should use the "touch" command to create the correct file
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(directoryContents.includes('bingo.sh') && lastCommand[0] === 'touch' && /bingo.sh/g.test(lastCommand[1]))
+
+at Context.<anonymous> (test/780.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script file should have executable permissions
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(fileIsExecutable)
+
+at Context.<anonymous> (test/790.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comment added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^#[ \t]*Bingo Number Generator[ \t]*$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/810.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comment added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^#[ \t]*Bingo Number Generator[ \t]*$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/810.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comment added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^#[ \t]*Bingo Number Generator[ \t]*$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/810.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Bingo Number Generator ~~\n{2}/g.test(output))
+
+at Context.<anonymous> (test/815.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Bingo Number Generator ~~\n{2}/g.test(output))
+
+at Context.<anonymous> (test/815.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Bingo Number Generator ~~\n{2}/g.test(output))
+
+at Context.<anonymous> (test/815.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Bingo Number Generator ~~\n{2}/g.test(output))
+
+at Context.<anonymous> (test/815.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Bingo Number Generator ~~\n{2}/g.test(output))
+
+at Context.<anonymous> (test/815.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Bingo Number Generator ~~\n{2}/g.test(output))
+
+at Context.<anonymous> (test/815.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+Error: Command failed: ./bingo.sh
+./bingo.sh: line 3: unexpected EOF while looking for matching `''
+./bingo.sh: line 4: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should "echo" the correct title
+
+Error: Command failed: ./bingo.sh
+./bingo.sh: line 3: unexpected EOF while looking for matching `''
+./bingo.sh: line 4: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 3: unexpected EOF while looking for matching `''
+./.freeCodeCamp/test.sh: line 5: syntax error: unexpected end of file
+  ✘ Your script should have the suggested variable added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 3: unexpected EOF while looking for matching `''
+./.freeCodeCamp/test.sh: line 5: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*NUMBER=('|"|)5\1[ \t]*;?[ \t]*$/gm.test(scriptFile) && /^5$/gm.test(output))
+
+at Context.<anonymous> (test/817.test.js:7:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*NUMBER=('|"|)5\1[ \t]*;?[ \t]*$/gm.test(scriptFile) && /^5$/gm.test(output))
+
+at Context.<anonymous> (test/817.test.js:7:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+\$LANG[ \t]*;?\s*$/gm.test(lastCommand))
+
+at Context.<anonymous> (test/822.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+\$LANG[ \t]*;?\s*$/gm.test(lastCommand))
+
+at Context.<anonymous> (test/822.test.js:8:5)

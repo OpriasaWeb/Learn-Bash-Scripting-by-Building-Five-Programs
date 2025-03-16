@@ -1,0 +1,17 @@
+2025-03-11 10:47:33.106 [info] 
+
+
+
+
+2025-03-11 10:47:33.128 [info] Extension host agent started.
+2025-03-11 10:47:33.190 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2025-03-11 10:47:33.190 [info] Extension 'github.vscode-pull-request-github' v0.106.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2025-03-11 10:47:33.190 [info] Installing extensions...
+2025-03-11 10:47:33.209 [info] Marked extension as removed github.vscode-pull-request-github-0.104.1
+2025-03-11 10:47:33.229 [info] Extension 'coderoad.coderoad' v0.19.4 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'coderoad.coderoad@1.2.3'.
+2025-03-11 10:47:33.250 [info] Deleted marked for removal extension from disk github.vscode-pull-request-github /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.104.1-universal
+2025-03-11 10:47:36.071 [info] [192.168.144.202][29a3f17f][ManagementConnection] New connection established.
+2025-03-11 10:47:36.612 [info] [192.168.23.138][010c47be][ExtensionHostConnection] New connection established.
+2025-03-11 10:47:36.624 [info] [192.168.23.138][010c47be][ExtensionHostConnection] <126> Launched Extension Host Process.
+2025-03-11 10:47:51.570 [info] [192.168.144.202][29a3f17f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-11 10:47:51.649 [info] [192.168.23.138][010c47be][ExtensionHostConnection] <126> Extension Host Process exited with code: 0, signal: null.

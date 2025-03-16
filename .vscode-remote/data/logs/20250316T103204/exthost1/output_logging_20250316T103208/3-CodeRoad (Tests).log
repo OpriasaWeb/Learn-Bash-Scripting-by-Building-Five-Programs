@@ -1,0 +1,976 @@
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'declare' && lastCommand[1] === '-p' && (lastCommand[2] === undefined || lastCommand[2].op === ';'))
+
+at Context.<anonymous> (test/824.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should run your script by executing it
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === './bingo.sh' && secondLastCommand[0] === './bingo.sh' && /\/project$/.test(cwd))
+
+at Context.<anonymous> (test/830.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*NUMBER=('|"|)\$RANDOM%75[ \t]*;?[ \t]*$/gm.test(scriptFile))
+
+at Context.<anonymous> (test/835.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*I=('|"|)0\1[ \t]*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/881.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+('|"|)\$I\1[ \t]*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/884.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+('|"|)\$I\1[ \t]*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/884.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*\(\(\s*\$?I\s*\+\+\s*\)\)\s*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/887.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo\s+\$\(\(\s*\$?J\s*\*\s*5\s*\+\s*25\s*\)\)\s*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/911.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo\s+\$\(\(\s*\$?J\s*\*\s*5\s*\+\s*25\s*\)\)\s*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/911.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'declare' && lastCommand[1] === '-p' && lastCommand[2] === 'RANDOM')
+
+at Context.<anonymous> (test/916.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'declare' && lastCommand[1] === '-p' && lastCommand[2] === 'RANDOM')
+
+at Context.<anonymous> (test/916.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+\$\(\([ \t]*\$?RANDOM[ \t]*%[ \t]*75[ \t]*\)\)[ \t]*;?\s*$/gm.test(lastCommand))
+
+at Context.<anonymous> (test/918.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+\$\(\([ \t]*\$?RANDOM[ \t]*%[ \t]*75[ \t]*\)\)[ \t]*;?\s*$/gm.test(lastCommand))
+
+at Context.<anonymous> (test/918.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo\s+('|"|)\$\(\(\s*\$?RANDOM\s*%\s*75\s*\+\s*1\s*\)\)\1\s*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/920.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*NUMBER=('|"|)\$\(\([ \t]*\$?RANDOM[ \t]*%[ \t]*75[ \t]*\+[ \t]*1[ \t]*\)\)\1[ \t]*;?\s*$/gm.test(scriptFile) && /^\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/928.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable
+
+Error: Command failed: ./bingo.sh
+./bingo.sh: line 7: syntax error near unexpected token `('
+./bingo.sh: line 7: `NUMBER= (( RANDOM %'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable
+
+Error: Command failed: ./bingo.sh
+./bingo.sh: line 7: syntax error near unexpected token `('
+./bingo.sh: line 7: `NUMBER= (( RANDOM % 75 + 1 ))'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ You should run your script by executing it
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === './bingo.sh' && secondLastCommand[0] === './bingo.sh' && /\/project$/.test(cwd))
+
+at Context.<anonymous> (test/930.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*TEXT=('|"|)The next number is, \1[ \t]*;?\s*$/gm.test(scriptFile) && /^The next number is,$/gm.test(output))
+
+at Context.<anonymous> (test/940.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 8: unexpected EOF while looking for matching `"'
+./.freeCodeCamp/test.sh: line 11: syntax error: unexpected end of file
+  ✘ Your script should have the suggested variable added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 8: unexpected EOF while looking for matching `"'
+./.freeCodeCamp/test.sh: line 11: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*TEXT=('|"|)The next number is, \1[ \t]*;?\s*$/gm.test(scriptFile) && /^The next number is,$/gm.test(output))
+
+at Context.<anonymous> (test/940.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*TEXT=('|"|)The next number is, \1[ \t]*;?\s*$/gm.test(scriptFile) && /^The next number is,$/gm.test(output))
+
+at Context.<anonymous> (test/940.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested variable added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*TEXT=('|"|)The next number is, \1[ \t]*;?\s*$/gm.test(scriptFile) && /^The next number is,$/gm.test(output))
+
+at Context.<anonymous> (test/940.test.js:9:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 8: unexpected EOF while looking for matching `"'
+./.freeCodeCamp/test.sh: line 11: syntax error: unexpected end of file
+  ✘ Your script should have the suggested variable added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 8: unexpected EOF while looking for matching `"'
+./.freeCodeCamp/test.sh: line 11: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*if[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<=[ \t]*15[ \t]*\)\)/gm.test(scriptFile) && !/echo[ \t]+\$NUMBER/.test(scriptFile) && /^The next number is, B:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/950.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*if[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<=[ \t]*15[ \t]*\)\)/gm.test(scriptFile) && !/echo[ \t]+\$NUMBER/.test(scriptFile) && /^The next number is, B:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/950.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*if[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<=[ \t]*15[ \t]*\)\)/gm.test(scriptFile) && !/echo[ \t]+\$NUMBER/.test(scriptFile) && /^The next number is, B:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/950.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*if[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<=[ \t]*15[ \t]*\)\)/gm.test(scriptFile) && !/echo[ \t]+\$NUMBER/.test(scriptFile) && /^The next number is, B:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/950.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*if[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<=[ \t]*15[ \t]*\)\)/gm.test(scriptFile) && !/echo[ \t]+\$NUMBER/.test(scriptFile) && /^The next number is, B:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/950.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 11: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 8: unexpected EOF while looking for matching `)'
+./.freeCodeCamp/test.sh: line 11: syntax error: unexpected end of file
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 8: unexpected EOF while looking for matching `)'
+./.freeCodeCamp/test.sh: line 11: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 8: unexpected EOF while looking for matching `)'
+./.freeCodeCamp/test.sh: line 11: syntax error: unexpected end of file
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 8: unexpected EOF while looking for matching `)'
+./.freeCodeCamp/test.sh: line 11: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 11: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*if[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<=[ \t]*15[ \t]*\)\)/gm.test(scriptFile) && !/echo[ \t]+\$NUMBER/.test(scriptFile) && /^The next number is, B:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/950.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*if[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<=[ \t]*15[ \t]*\)\)/gm.test(scriptFile) && !/echo[ \t]+\$NUMBER/.test(scriptFile) && /^The next number is, B:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/950.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*if[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<=[ \t]*15[ \t]*\)\)/gm.test(scriptFile) && !/echo[ \t]+\$NUMBER/.test(scriptFile) && /^The next number is, B:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/950.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*if[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<=[ \t]*15[ \t]*\)\)/gm.test(scriptFile) && !/echo[ \t]+\$NUMBER/.test(scriptFile) && /^The next number is, B:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/950.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*if[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<=[ \t]*15[ \t]*\)\)/gm.test(scriptFile) && !/echo[ \t]+\$NUMBER/.test(scriptFile) && /^The next number is, B:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/950.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*if[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<=[ \t]*15[ \t]*\)\)/gm.test(scriptFile) && !/echo[ \t]+\$NUMBER/.test(scriptFile) && /^The next number is, B:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/950.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 10: syntax error near unexpected token `elif'
+./.freeCodeCamp/test.sh: line 10: `elif '
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 10: syntax error near unexpected token `elif'
+./.freeCodeCamp/test.sh: line 10: `elif '
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-le[ \t]+30[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, I:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/960.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-le[ \t]+30[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, I:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/960.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-le[ \t]+30[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, I:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/960.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-le[ \t]+30[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, I:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/960.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-le[ \t]+30[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, I:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/960.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-le[ \t]+30[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, I:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/960.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-le[ \t]+30[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, I:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/960.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 12: syntax error in conditional expression
+./.freeCodeCamp/test.sh: line 12: syntax error near `30'
+./.freeCodeCamp/test.sh: line 12: ` [[ $NUMBER <= 30 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 12: syntax error in conditional expression
+./.freeCodeCamp/test.sh: line 12: syntax error near `30'
+./.freeCodeCamp/test.sh: line 12: `elif [[ $NUMBER <= 30 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 12: syntax error in conditional expression
+./.freeCodeCamp/test.sh: line 12: syntax error near `30'
+./.freeCodeCamp/test.sh: line 12: `elif [[ $NUMBER <= 30 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at ChildProcess._handle.onexit (node:internal/child_process:303:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 12: syntax error in conditional expression
+./.freeCodeCamp/test.sh: line 12: syntax error near `30'
+./.freeCodeCamp/test.sh: line 12: `elif [[ $NUMBER <= 30 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 12: syntax error in conditional expression
+./.freeCodeCamp/test.sh: line 12: syntax error near `30'
+./.freeCodeCamp/test.sh: line 12: `elif [[ $NUMBER <= 30 ]]'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 14: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 14: `fi'
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 14: syntax error near unexpected token `fi'
+./.freeCodeCamp/test.sh: line 14: `fi'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<[ \t]*46[ \t]*\)\)/gm.test(scriptFile) && /^The next number is, N:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/970.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<[ \t]*46[ \t]*\)\)/gm.test(scriptFile) && /^The next number is, N:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/970.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<[ \t]*46[ \t]*\)\)/gm.test(scriptFile) && /^The next number is, N:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/970.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\(\([ \t]*\$?NUMBER[ \t]*<[ \t]*46[ \t]*\)\)/gm.test(scriptFile) && /^The next number is, N:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/970.test.js:10:5)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 15: syntax error in conditional expression: unexpected token `)'
+./.freeCodeCamp/test.sh: line 15: syntax error near `))'
+./.freeCodeCamp/test.sh: line 15: `elif [[ $NUMBER < 46 ))'
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 15: syntax error in conditional expression: unexpected token `)'
+./.freeCodeCamp/test.sh: line 15: syntax error near `))'
+./.freeCodeCamp/test.sh: line 15: `elif [[ $NUMBER < 46 ))'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-lt[ \t]+61[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, G:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/980.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-lt[ \t]+61[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, G:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/980.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "elif" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/elif[ \t]+\[\[[ \t]+\$NUMBER[ \t]+-lt[ \t]+61[ \t]+\]\]/gm.test(scriptFile) && /^The next number is, G:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/980.test.js:10:5)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 22: syntax error near unexpected token `then'
+./.freeCodeCamp/test.sh: line 22: `then'
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 22: syntax error near unexpected token `then'
+./.freeCodeCamp/test.sh: line 22: `then'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 22: syntax error near unexpected token `then'
+./.freeCodeCamp/test.sh: line 22: `then'
+  ✘ Your script should have the suggested "else" statement added correctly
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 22: syntax error near unexpected token `then'
+./.freeCodeCamp/test.sh: line 22: `then'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s+echo[ \t]+\$TEXT O:\$NUMBER\s+/gm.test(scriptFile) && /^The next number is, O:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/990.test.js:10:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s+echo[ \t]+\$TEXT O:\$NUMBER\s+/gm.test(scriptFile) && /^The next number is, O:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/990.test.js:10:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "else" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s+echo[ \t]+\$TEXT O:\$NUMBER\s+/gm.test(scriptFile) && /^The next number is, O:\d{1,2}$/gm.test(output))
+
+at Context.<anonymous> (test/990.test.js:10:5)
+FAILED TEST LOG
+  ✘ You should run your script by executing it
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === './bingo.sh' && secondLastCommand[0] === './bingo.sh' && /\/project$/.test(cwd))
+
+at Context.<anonymous> (test/1000.test.js:10:5)
+FAILED TEST LOG
+  ✘ You should use the "touch" command to create the correct file
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(directoryContents.includes('fortune.sh') && lastCommand[0] === 'touch' && /fortune.sh/g.test(lastCommand[1]))
+
+at Context.<anonymous> (test/1010.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Fortune Teller ~~\n{2}/g.test(output))
+
+at Context.<anonymous> (test/1050.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Fortune Teller ~~\n{2}/g.test(output))
+
+at Context.<anonymous> (test/1050.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Fortune Teller ~~\n{2}/g.test(output))
+
+at Context.<anonymous> (test/1050.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\n~~ Fortune Teller ~~\n{2}/g.test(output))
+
+at Context.<anonymous> (test/1050.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 4: unexpected EOF while looking for matching `"'
+./fortune.sh: line 5: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 4: unexpected EOF while looking for matching `"'
+./fortune.sh: line 5: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+Error: Command failed: ARR("a", "b", "c")
+declare -p ARR
+/bin/bash: -c: line 1: syntax error near unexpected token `"a",'
+/bin/bash: -c: line 1: `ARR("a", "b", "c")'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(output === 'declare -a ARR=([0]="a" [1]="b" [2]="c")\n')
+
+at Context.<anonymous> (test/1070.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo\s+\${ARR\[(@|\*)\]}\s*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/1090.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'declare' && lastCommand[1] === '-p' && lastCommand[2] === 'ARR')
+
+at Context.<anonymous> (test/1100.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'declare' && lastCommand[1] === '-p' && lastCommand[2] === 'ARR')
+
+at Context.<anonymous> (test/1100.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct array variable added
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 6: RESPONSES: command not found
+./.freeCodeCamp/test.sh: line 7: declare: RESPONSES: not found
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at ChildProcess._handle.onexit (node:internal/child_process:303:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct array variable added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*declare -a RESPONSES=\(\[0\]="Yes" \[1\]="No" \[2\]="Maybe" \[3\]="Outlook good" \[4\]="Don't count on it" \[5\]="Ask again later"\)\s*$/gm.test(output))
+
+at Context.<anonymous> (test/1110.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct array variable added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*declare -a RESPONSES=\(\[0\]="Yes" \[1\]="No" \[2\]="Maybe" \[3\]="Outlook good" \[4\]="Don't count on it" \[5\]="Ask again later"\)\s*$/gm.test(output))
+
+at Context.<anonymous> (test/1110.test.js:8:5)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 6: unexpected EOF while looking for matching `)'
+  ✘ Your script should have the correct array variable added
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 6: unexpected EOF while looking for matching `)'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+
+./.freeCodeCamp/test.sh: line 6: unexpected EOF while looking for matching `)'
+  ✘ Your script should have the correct array variable added
+
+Error: Command failed: ./.freeCodeCamp/test.sh
+./.freeCodeCamp/test.sh: line 6: unexpected EOF while looking for matching `)'
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the correct array variable added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*declare -a RESPONSES=\(\[0\]="Yes" \[1\]="No" \[2\]="Maybe" \[3\]="Outlook good" \[4\]="Don't count on it" \[5\]="Ask again later"\)\s*$/gm.test(output))
+
+at Context.<anonymous> (test/1110.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct array variable added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*declare -a RESPONSES=\(\[0\]="Yes" \[1\]="No" \[2\]="Maybe" \[3\]="Outlook good" \[4\]="Don't count on it" \[5\]="Ask again later"\)\s*$/gm.test(output))
+
+at Context.<anonymous> (test/1110.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct array variable added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*declare -a RESPONSES=\(\[0\]="Yes" \[1\]="No" \[2\]="Maybe" \[3\]="Outlook good" \[4\]="Don't count on it" \[5\]="Ask again later"\)\s*$/gm.test(output))
+
+at Context.<anonymous> (test/1110.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct array variable added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*declare -a RESPONSES=\(\[0\]="Yes" \[1\]="No" \[2\]="Maybe" \[3\]="Outlook good" \[4\]="Don't count on it" \[5\]="Ask again later"\)\s*$/gm.test(output))
+
+at Context.<anonymous> (test/1110.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct array variable added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*declare -a RESPONSES=\(\[0\]="Yes" \[1\]="No" \[2\]="Maybe" \[3\]="Outlook good" \[4\]="Don't count on it" \[5\]="Ask again later"\)\s*$/gm.test(output))
+
+at Context.<anonymous> (test/1110.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct array variable added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*declare -a RESPONSES=\(\[0\]="Yes" \[1\]="No" \[2\]="Maybe" \[3\]="Outlook good" \[4\]="Don't count on it" \[5\]="Ask again later"\)\s*$/gm.test(output))
+
+at Context.<anonymous> (test/1110.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct array variable added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*declare -a RESPONSES=\(\[0\]="Yes" \[1\]="No" \[2\]="Maybe" \[3\]="Outlook good" \[4\]="Don't count on it" \[5\]="Ask again later"\)\s*$/gm.test(output))
+
+at Context.<anonymous> (test/1110.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct array variable added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*declare -a RESPONSES=\(\[0\]="Yes" \[1\]="No" \[2\]="Maybe" \[3\]="Outlook good" \[4\]="Don't count on it" \[5\]="Ask again later"\)\s*$/gm.test(output))
+
+at Context.<anonymous> (test/1110.test.js:8:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+\${RESPONSES\[5\]}[ \t]*;?\s*$/gm.test(scriptFile) && /^\s*Ask again later$/gm.test(output))
+
+at Context.<anonymous> (test/1120.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+\${RESPONSES\[5\]}[ \t]*;?\s*$/gm.test(scriptFile) && /^\s*Ask again later$/gm.test(output))
+
+at Context.<anonymous> (test/1120.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 7: unexpected EOF while looking for matching `}'
+./fortune.sh: line 8: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+\${RESPONSES\[5\]}[ \t]*;?\s*$/gm.test(scriptFile) && /^\s*Ask again later$/gm.test(output))
+
+at Context.<anonymous> (test/1120.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+\${RESPONSES\[5\]}[ \t]*;?\s*$/gm.test(scriptFile) && /^\s*Ask again later$/gm.test(output))
+
+at Context.<anonymous> (test/1120.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should "echo" the suggested text correctly
+
+Error: Command failed: ./fortune.sh
+./fortune.sh: line 7: ${RESPONSES[]}: bad substitution
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:517:28)
+at maybeClose (node:internal/child_process:1098:16)
+at Socket.<anonymous> (node:internal/child_process:450:11)
+at Socket.emit (node:events:517:28)
+at Pipe.<anonymous> (node:net:350:12)
+FAILED TEST LOG
+  ✘ Your script should have the correct variable added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*N=('|"|)\$\(\([ \t]*\$?RANDOM[ \t]*%[ \t]*6[ \t]*\)\)\1[ \t]*;?\s*$/gm.test(scriptFile) && /^\d{1}$/gm.test(output))
+
+at Context.<anonymous> (test/1140.test.js:9:5)

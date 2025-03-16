@@ -1,0 +1,15 @@
+2025-03-16 10:32:04.161 [info] 
+
+
+
+
+2025-03-16 10:32:04.183 [info] Extension host agent started.
+2025-03-16 10:32:04.237 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2025-03-16 10:32:04.237 [info] Extension 'github.vscode-pull-request-github' v0.106.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2025-03-16 10:32:04.238 [info] Installing extensions...
+2025-03-16 10:32:04.276 [info] Extension 'coderoad.coderoad' v0.19.4 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'coderoad.coderoad@1.2.3'.
+2025-03-16 10:32:05.896 [info] [192.168.23.138][8b26cfc8][ManagementConnection] New connection established.
+2025-03-16 10:32:06.426 [info] [192.168.23.138][7c8408a5][ExtensionHostConnection] New connection established.
+2025-03-16 10:32:06.433 [info] [192.168.23.138][7c8408a5][ExtensionHostConnection] <124> Launched Extension Host Process.
+2025-03-16 11:32:51.899 [info] [192.168.23.138][8b26cfc8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-16 11:32:52.031 [info] [192.168.23.138][7c8408a5][ExtensionHostConnection] <124> Extension Host Process exited with code: 0, signal: null.

@@ -1,0 +1,22 @@
+2025-03-03 12:22:54.471 [info] 
+
+
+
+
+2025-03-03 12:22:54.493 [info] Extension host agent started.
+2025-03-03 12:22:54.573 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2025-03-03 12:22:54.574 [info] Extension 'github.vscode-pull-request-github' v0.104.1 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2025-03-03 12:22:54.574 [info] Installing extensions...
+2025-03-03 12:22:54.601 [info] Marked extension as removed github.vscode-pull-request-github-0.102.0-universal
+2025-03-03 12:22:54.624 [info] Extension 'coderoad.coderoad' v0.19.4 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'coderoad.coderoad@1.2.3'.
+2025-03-03 12:22:54.638 [info] Deleted marked for removal extension from disk github.vscode-pull-request-github /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.102.0-universal
+2025-03-03 12:22:56.393 [info] [192.168.172.203][c4fed375][ManagementConnection] New connection established.
+2025-03-03 12:22:56.915 [info] [192.168.172.203][9ba25962][ExtensionHostConnection] New connection established.
+2025-03-03 12:22:56.938 [info] [192.168.172.203][9ba25962][ExtensionHostConnection] <123> Launched Extension Host Process.
+2025-03-03 13:53:44.157 [info] [192.168.172.203][c4fed375][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-03 13:53:44.280 [info] [192.168.172.203][9ba25962][ExtensionHostConnection] <123> Extension Host Process exited with code: 0, signal: null.
+2025-03-03 13:54:33.696 [info] [192.168.23.138][48511b6e][ManagementConnection] New connection established.
+2025-03-03 13:54:34.164 [info] [192.168.23.138][8a6cfcf3][ExtensionHostConnection] New connection established.
+2025-03-03 13:54:34.169 [info] [192.168.23.138][8a6cfcf3][ExtensionHostConnection] <8450> Launched Extension Host Process.
+2025-03-03 13:54:46.885 [info] [192.168.23.138][48511b6e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-03-03 13:54:46.967 [info] [192.168.23.138][8a6cfcf3][ExtensionHostConnection] <8450> Extension Host Process exited with code: 0, signal: null.
